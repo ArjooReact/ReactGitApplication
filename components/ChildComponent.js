@@ -38,6 +38,9 @@ const styles = StyleSheet.create({
     backgroundColor:'#ffbb00',
       width: '100%',
       height: '100%'
+  },
+  textColor:{
+    color:'#ffbb00'
   }
 
 })

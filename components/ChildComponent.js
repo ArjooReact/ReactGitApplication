@@ -48,8 +48,8 @@ const ChildComponent = ()=> {
 const styles = StyleSheet.create({
   background:{
     backgroundColor:'#ffbb00',
-      width: '100%',
-      height: '100%'
+      width: '90%',
+      height: '90%'
   },
   textColor:{
     color:'#ffbb00'

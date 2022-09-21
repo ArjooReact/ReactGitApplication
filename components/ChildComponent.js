@@ -15,21 +15,7 @@ const ChildComponent = ()=> {
     name: 'yuv',
     id:2
   },
-  {
-    name: 'reena1',
-    id:2
-  },{
-    name: 'Sid1',
-    id:2
-  },
-  {
-    name: 'yuv1',
-    id:2
-  },
-  {
-    name: 'reena1',
-    id:2
-  }
+ 
 ]
 
 

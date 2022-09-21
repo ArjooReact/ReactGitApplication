@@ -13,8 +13,25 @@ const ChildComponent = ()=> {
   },
   {
     name: 'yuv',
-    id:2
+    id:3
   },
+  {
+    name: 'ram',
+    id:4
+  },
+  {
+    name: 'shyam',
+    id:5
+  },
+  {
+    name: 'sita',
+    id:6
+  },
+  {
+    name: 'gita',
+    id:7
+  },
+  
  
 ]
 
@@ -48,8 +65,8 @@ const ChildComponent = ()=> {
 const styles = StyleSheet.create({
   background:{
     backgroundColor:'#ffbb00',
-      width: '90%',
-      height: '90%'
+      width: '100%',
+      height: '100%'
   },
   textColor:{
     color:'#ffbb00'

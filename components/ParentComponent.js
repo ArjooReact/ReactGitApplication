@@ -22,7 +22,7 @@ class ParentComponent extends Component{
 }
 const styles= StyleSheet.create({
     backstyle:{
-        width:100,
+        width:500,
         height:20
     },
     frontstyle:{

@@ -34,7 +34,7 @@ const ChildComponent = ()=> {
 
   const renderItem = ({ item }) => (
     <View style= {{width :'96%', height:100, backgroundColor:'pink',padding: 10,alignSelf:'center',alignItems:'center', marginVertical: 8,marginHorizontal:6,justifyContent:'center'}}>
-   <Text style= {{fontSize:20,color:'pink'}}>{item.name}</Text>
+   <Text style= {{fontSize:20,color:'white'}}>{item.name}</Text>
    
     </View>
   );

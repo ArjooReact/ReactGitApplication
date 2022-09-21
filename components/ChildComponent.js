@@ -4,49 +4,22 @@ import {StyleSheet,Button,SafeAreaView,View,FlatList,Text} from 'react-native'
 const ChildComponent = ()=> {
   // console.log('child component')
   const data = [{
-    name: 'kane',
+    name: 'Arzoo',
     id:11
   },
   {
-    name: 'jane',
+    name: 'Rajveer',
     id:12
   },
   {
-    name: 'vane',
+    name: 'Sid',
     id:13
   },
   {
-    name: 'rane',
+    name: 'Rashmi',
     id:14
   },
-  {
-    name: 'tane',
-    id:15
-  },
-  {
-    name: 'yak',
-    id:16
-  },
-  {
-    name: 'vane',
-    id:17
-  },
-  {
-    name: 'ram',
-    id:4
-  },
-  {
-    name: 'shyam',
-    id:5
-  },
-  {
-    name: 'sita',
-    id:6
-  },
-  {
-    name: 'gita',
-    id:7
-  },
+  
   
  
 ]
@@ -61,7 +34,7 @@ const ChildComponent = ()=> {
 
   const renderItem = ({ item }) => (
     <View style= {{width :'96%', height:100, backgroundColor:'pink',padding: 10,alignSelf:'center',alignItems:'center', marginVertical: 8,marginHorizontal:6,justifyContent:'center'}}>
-   <Text style= {{fontSize:20,color:'yellow'}}>{item.name}</Text>
+   <Text style= {{fontSize:20,color:'red'}}>{item.name}</Text>
    
     </View>
   );

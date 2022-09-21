@@ -12,10 +12,6 @@ const ChildComponent = ()=> {
     id:12
   },
   {
-<<<<<<< HEAD
-    name: 'yuv',
-    id:3
-=======
     name: 'vane',
     id:13
   },
@@ -34,7 +30,6 @@ const ChildComponent = ()=> {
   {
     name: 'vane',
     id:17
->>>>>>> develop
   },
   {
     name: 'ram',

@@ -8,11 +8,11 @@ const ChildComponent = ()=> {
     id:11
   },
   {
-    name: 'Rajveer_master',
+    name: 'Rajveer_develop',
     id:12
   },
   {
-    name: 'Sid_master',
+    name: 'Sid_arjoo',
     id:13
   },
   {

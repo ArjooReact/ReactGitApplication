@@ -4,19 +4,19 @@ import {StyleSheet,Button,SafeAreaView,View,FlatList,Text} from 'react-native'
 const ChildComponent = ()=> {
   // console.log('child component')
   const data = [{
-    name: 'Arzoo_rj',
+    name: 'Arzoo_develop',
     id:11
   },
   {
-    name: 'Rajveer_rj',
+    name: 'Rajveer_develop',
     id:12
   },
   {
-    name: 'Sid_rj',
+    name: 'Sid_develop',
     id:13
   },
   {
-    name: 'Rashmi_rj',
+    name: 'Rashmi_develop',
     id:14
   },
   

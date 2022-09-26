@@ -1,5 +1,5 @@
 import React from 'react'
-import {StyleSheet,Button,SafeAreaView,View,FlatList,Text} from 'react-native'
+import {StyleSheet,Button,SafeAreaView,View,FlatList,Text, Alert} from 'react-native'
 
 const ChildComponent = ()=> {
   // console.log('child component')
@@ -30,7 +30,15 @@ const ChildComponent = ()=> {
   {
     name: 'Rashmi_masters',
     id:14
+  },{
+    name:'Jambo',
+    id:14
+  }
+  ,{
+    name:'rambo',
+    id:45
   },
+
   
   
  
@@ -51,11 +59,19 @@ const ChildComponent = ()=> {
     </View>
   );
     return <SafeAreaView style = {styles.background}> 
+    <View style= {{width:'100%',flex:3,backgroundColor:'green'}}>
     <FlatList
     data = {data}
     renderItem = {renderItem}
     keyExtractor = {(data)=>{data.id}}
     ></FlatList>
+    </View>
+    <View style= {{width:'100%',flex:1,backgroundColor:'yellow'}}>
+      <Button title='PRESS ME' style={{backgroundColor:'blue',width:'100%',height:20}} onPress={()=> Alert.alert('Hi')}>
+
+      </Button>
+      </View>
+   
     
    
     </SafeAreaView>
@@ -67,12 +83,15 @@ const styles = StyleSheet.create({
   background:{
     backgroundColor:'green',
       width: '100%',
-      height: '100%'
+      height: '100%',
+      flex:1,
+      flexDirection:'column'
   },
   textColor:{
     color:'green'
   }
 
 })
+
 
 export default ChildComponent;

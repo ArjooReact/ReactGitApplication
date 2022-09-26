@@ -4,8 +4,20 @@ import {StyleSheet,Button,SafeAreaView,View,FlatList,Text} from 'react-native'
 const ChildComponent = ()=> {
   // console.log('child component')
   const data = [{
-    name: 'Arzoo_develops',
+    name: 'Deepak',
     id:11
+  },
+  {
+    name: 'Rajveer_masters',
+    id:12
+  },
+  {
+    name: 'Sid_develops',
+    id:13
+  },
+  {
+    name: 'Rashmi_masters',
+    id:14
   },
   {
     name: 'Rajveer_masters',
@@ -53,12 +65,12 @@ const ChildComponent = ()=> {
 }
 const styles = StyleSheet.create({
   background:{
-    backgroundColor:'#ffbb00',
+    backgroundColor:'green',
       width: '100%',
       height: '100%'
   },
   textColor:{
-    color:'#ffbb00'
+    color:'green'
   }
 
 })

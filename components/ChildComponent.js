@@ -1,7 +1,7 @@
 import React from 'react'
 import {StyleSheet,Button,SafeAreaView,View,FlatList,Text, Alert} from 'react-native'
 
-const ChildComponent = ()=> {
+const ChildComponent = (props)=> {
   // console.log('child component')
   const data = [{
     name: 'Deepak',
@@ -67,9 +67,10 @@ const ChildComponent = ()=> {
     ></FlatList>
     </View>
     <View style= {{width:'100%',flex:1,backgroundColor:'yellow'}}>
-      <Button title='PRESS ME' style={{backgroundColor:'blue',width:'100%',height:20}} onPress={()=> Alert.alert('Hi')}>
+      <Button title='PRESS ME' style={{backgroundColor:'blue',width:'100%',height:20}} onPress={()=> props.navigation.navigate('LoginScreen')}>
 
       </Button>
+      <Text>HELLO</Text>
       </View>
    
     

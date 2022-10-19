@@ -11,6 +11,8 @@ import React from 'react';
 import { createStackNavigator} from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
 import ChildComponent  from './components/ChildComponent';
+import LoginComponent from './components/LoginComponent';
+import DashBoardComponent from './components/DashboardComponent';
 import {
   SafeAreaView,
   ScrollView,
@@ -56,9 +58,18 @@ const App=() => {
    }}>
 
 <Stack.Screen name="CHILD" component={ChildComponent}  options={{
-  index:0,
+         index:0,
         headerShown:false
      }} />
+
+<Stack.Screen name="LoginScreen" component={LoginComponent} 
+ options = {{
+   headerShown:true
+ }}/>
+ <Stack.Screen name="DashBoardScreen" component={DashBoardComponent} 
+ options = {{
+   headerShown:true
+ }}/>
       </Stack.Navigator>
     </NavigationContainer>
      
